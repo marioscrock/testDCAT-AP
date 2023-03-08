@@ -165,7 +165,8 @@ table code, table pre {
   ],
   "id": "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
   "type": [
-    "TechArticle"
+    "TechArticle",
+    "w3p:REC"
   ],
   "name": "mobilityDCAT-AP - Version 1.0.0",
   "inLanguage": "en-GB",
@@ -176,7 +177,7 @@ table code, table pre {
     "url": "https://europa.eu/"
   },
   "discussionUrl": "https://github.com/semiceu/geodcat-ap/issues/",
-  "alternativeHeadline": "A geospatial extension for the DCAT application profile for data portals in Europe",
+  "alternativeHeadline": "A mobility extension for the DCAT application profile for data portals in Europe",
   "isBasedOn": "https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/",
   "description": "mobilityDCAT-AP is the best DCAT-AP extension.",
   "editor": [
@@ -1857,7 +1858,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
   "maxTocLevel": 3,
   "doJsonLd": true,
   "noRecTrack": false,
-  "subtitle": "A geospatial extension for the DCAT application profile for data portals in Europe",
+  "subtitle": "A mobility extension for the DCAT application profile for data portals in Europe",
   "copyrightStart": 2020,
   "publishDate": "2020-12-23",
   "alternateFormats": [
@@ -1879,7 +1880,7 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   ],
   "errata": "https://github.com/SEMICeu/GeoDCAT-AP/issues?q=is%3Aissue+label%3Atype%3Aerratum+label%3Arelease%3A2.0.0",
-  "specStatus": "ED",
+  "specStatus": "REC",
   "shortName": "geodcat-ap",
   "canonicalURI": "https://semiceu.github.io/GeoDCAT-AP/drafts/latest/",
   "prevRecURI": "https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/",
@@ -2798,20 +2799,20 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
     }
   },
   "publishISODate": "2020-12-22T23:00:00.000Z",
-  "generatedSubtitle": "Editor's Draft 22 December 2020"
+  "generatedSubtitle": "Recommendation 22 December 2020"
 }</script>
-<link rel="stylesheet" href="https://semiceu.github.io/respec-style/SEMICEU-ED.css"></head>
+<link rel="stylesheet" href="https://semiceu.github.io/respec-style/SEMICEU-REC.css"></head>
 <body class="h-entry"><div class="head">
     <a class="logo" href="https://joinup.ec.europa.eu/collection/semantic-interoperability-community-semic"><img alt="SEMIC" width="72" height="72" src="https://semiceu.github.io/respec-style/logos/SEMICEU.png"></a> <h1 id="title" class="title">mobilityDCAT-AP - Version 1.0.0</h1>
-    <h2 id="subtitle" class="subtitle">A geospatial extension for the DCAT application profile for data portals in Europe</h2>
+    <h2 id="subtitle" class="subtitle">A mobility extension for the DCAT application profile for data portals in Europe</h2>
     <h2>
-      SEMIC Editor's Draft
+      SEMIC Recommendation
       <time class="dt-published" datetime="12/22/2020">22 December 2020</time>
     </h2>
     
     <dl>
       <dt>This version:</dt><dd>
-              <a class="u-url" href="https://semiceu.github.io/GeoDCAT-AP/drafts/latest/">https://semiceu.github.io/GeoDCAT-AP/drafts/latest/</a>
+              <a class="u-url" href="https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/">https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/</a>
             </dd><dt>Latest published version:</dt><dd>
               <a href="https://semiceu.github.io/GeoDCAT-AP/releases/">https://semiceu.github.io/GeoDCAT-AP/releases/</a>
             </dd>
@@ -2819,8 +2820,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       
       
       
-      
-      <dt>Latest Recommendation:</dt><dd><a href="https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/">https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/</a></dd>
+      <dt>Previous version:</dt><dd><a href="https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/">https://semiceu.github.io/GeoDCAT-AP/drafts/2.0.0-draft-0.1/</a></dd>
+      <dt>Previous Recommendation:</dt><dd><a href="https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/">https://semiceu.github.io/GeoDCAT-AP/releases/2.0.0/</a></dd>
       <dt>Editors:</dt>
       <dd class="p-author h-card vcard"><span class="p-name fn">Andrea Perego</span><a class="p-name orcid" href="https://orcid.org/0000-0001-9300-2694"><svg width="16" height="16" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256">
   <style>
@@ -2927,8 +2928,8 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
       document at the time of its publication. Other documents may supersede
       this document.</em></p>
 <p>
-    This document was published by the <a href="https://github.com/semiceu/geodcat-ap/">GeoDCAT-AP Working Group</a> as an
-    Editor's Draft. 
+    This document was published by the <a href="https://github.com/semiceu/geodcat-ap/">GeoDCAT-AP Working Group</a> as a
+    Recommendation. 
     
   </p><p>
     <a href="https://github.com/semiceu/geodcat-ap/issues/">GitHub Issues</a> are preferred for
@@ -2936,12 +2937,11 @@ var[data-type]:hover::after,var[data-type]:hover::before{opacity:1}
         
     
   </p><p>
-      Publication as an Editor's Draft does not imply endorsement
-      by the European Commission. 
-    </p><p>This is a draft document and may be updated, replaced
-  or obsoleted by other documents at any time. It is inappropriate to cite this
-  document as other than work in progress.
-  </p><p></p><p>
+      A Recommendation is a specification that, after extensive
+      consensus-building, has received the endorsement of the Working Group. 
+      The Working Group recommends the wide deployment of this specification.
+      
+    </p><p>
                   This document is governed by the
                   <a id="w3c_process_revision" href="https://joinup.ec.europa.eu/solution/dcat-application-profile-data-portals-europe/document/change-and-release-management-policy-dcat-ap">Change and Release Management Policy for DCAT-AP</a>.
                 </p></section>
